@@ -125,3 +125,46 @@ button:hover {
 .filterSection {
   display: flex;
 }
+
+/* ANIMAL CARDS */
+.animalCard {
+  background-color: var(--whiteColor);
+  width: 250px;
+}
+
+.animalCard h3 {
+  margin-top: 5px;
+  margin-bottom: 4px;
+}
+
+.animalCard p {
+  margin-top: 1px;
+}
+
+.animalCard img {
+  width: 250px;
+}
+
+.animalCard a {
+  color: var(--blackColor);
+  text-decoration: none;
+}
+
+.gender {
+  display: flex;
+  align-items: baseline;
+}
+
+.gender i {
+  margin-left: 5px;
+}
+
+.animalCard .animalCardInfo {
+  padding: 5px 6px;
+  border-top-style: none;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-width: 1px;
+  border-color: var(--blackColor);
+}
