@@ -129,3 +129,6 @@
   height: auto; /* Bevarer billedets proportioner */
   display: block; /* Forhindrer mellemrum nedenfor billedet */
 }
+.taps {
+  margin-bottom: 3rem;
+}

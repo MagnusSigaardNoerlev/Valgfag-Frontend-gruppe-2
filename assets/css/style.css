@@ -176,3 +176,58 @@ header {
 
 /* Vejledning.html start */
 /* Vejledning.html slut */
+/* --- IMPORTS --- */
+
+/* footer */
+footer {
+  background-color: var(--mediumGreen);
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer i,
+footer p {
+  color: var(--whiteColor);
+}
+
+footer p {
+  font-weight: 600;
+}
+
+.socialMedia i {
+  font-size: 3.5rem;
+}
+
+.socialMedia i:nth-child(2) {
+  margin-inline: 15px;
+}
+
+.logo {
+  width: 350px;
+}
+
+.cvr {
+  font-weight: 900;
+}
+
+.icon {
+  margin-right: 10px;
+  margin-top: 17px;
+}
+
+.icon:not(.cvr) {
+  font-size: 1.3rem;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+}
+
+.internatInformation {
+  display: flex;
+  align-items: center;
+}
