@@ -29,15 +29,28 @@
 }
 
 /* Grid */
+body {
+  margin: 0;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 40px repeat(9, 1fr) 40px;
+  gap: 20px;
+}
 
 section {
+  grid-column: 2/-2;
+}
+
+/* section {
   display: grid;
   grid-template-columns: 40px 1fr 40px;
 }
 
 article {
   grid-column: 2 / 3;
-}
+} */
 
 /* Index.html start */
 /* Index.html slut */
