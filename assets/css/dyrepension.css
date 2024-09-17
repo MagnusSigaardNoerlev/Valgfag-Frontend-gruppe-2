@@ -11,6 +11,9 @@
   color: var(--whiteColor);
   align-items: center;
 }
+.hero-dyrpension h1 {
+  margin-left: 180px;
+}
 .content-dyrepension {
   display: flex;
   align-items: center; /* Justerer billede og tekst på midten af højde */
@@ -129,7 +132,7 @@ input[type="submit"]:hover {
   align-items: flex-start; /* Aligns both sections to the top */
   flex-wrap: wrap; /* Makes it responsive, so content wraps on smaller screens */
   gap: 20px;
-  margin-top: 20px;
+  margin-top: 3rem;
 }
 .kontaktogpriser {
   flex: 1; /* Makes this section take up available space */
