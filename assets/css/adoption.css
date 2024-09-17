@@ -82,6 +82,7 @@
 
 /* SPECIFIKATION FILTER */
 .filterBox {
+  width: 25%;
   padding: 20px; 
   background-color: var(--lightGreen);
   margin-bottom: 25px; 
