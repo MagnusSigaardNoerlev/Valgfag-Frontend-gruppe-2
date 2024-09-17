@@ -31,7 +31,19 @@
 /* Grid */
 
 section {
-  grid-column: 2/-2;
+  display: grid;
+  grid-template-columns: 40px 1fr 40px;
+}
+
+article {
+  grid-column: 2 / 3;
+}
+
+/* footer */
+footer {
+  background-color: var(--mediumGreen);
+  width: 100%;
+  height: 400px;
 }
 
 /* Index.html start */
