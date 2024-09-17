@@ -82,9 +82,10 @@
 
 /* SPECIFIKATION FILTER */
 .filterBox {
-  width: 360px;
+  width: 300px;
   padding: 20px; 
-  background-color: var(--lightGreen); 
+  background-color: var(--lightGreen);
+  margin-bottom: 25px; 
 }
 .filterBox form {
   display: flex;
