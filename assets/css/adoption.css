@@ -1,0 +1,52 @@
+
+.introAdoption {
+    display: flex;
+  }
+  
+  .introAdoption p {
+    width: 65%;
+  }
+  
+  .adoptionFelt a,
+  .adoptionsprocessFelt a,
+  .vejledningFelt a{
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .adoptionFelt,
+  .adoptionsprocessFelt,
+  .vejledningFelt {
+    height: 100px;
+    width: 300px;
+    color: var(--whiteColor);
+  }
+  
+  .adoptionFelt{
+    text-align: center;
+    margin-top: 125px;
+    background-color: var(--darkGreen);
+  }
+  
+  .adoptionsprocessFelt{
+    text-align: center;
+    background-color: var(--lightGreen);
+  }
+  
+  .vejledningFelt{
+    text-align: center;
+    background-color: var(--lightGreen);
+  }
+
+  .navMenu a {
+    display: block;        /* Gør linket til en blok, så det fylder hele div'en */
+    text-decoration: none; /* Fjerner standard-underlinje på links */
+    color: var(--whiteColor);        /* Beholder farven på teksten */
+    padding: 20px;         /* Juster efter behov for at gøre feltet større */
+    
+    text-align: center;    /* Centrerer teksten */
+}
+
+.navMenu a:hover {
+    background-color: #e0e0e0; /* Ændrer baggrund ved hover */
+}

@@ -13,12 +13,6 @@
   --mediumGreen: #67a379;
   --lightGreen: #aac479;
   --ultraLightGreen: #c3d899;
-
-  /* TEXT SIZE */
-  --textSizeH1: 4.4rem;
-  --textSizeH2: 2.5rem;
-  --textSizeH3: 2.2rem;
-  --textSizeBase: 1.9rem;
 }
 
 /* --- UTILLITIES --- */
@@ -30,6 +24,18 @@
 
 body {
   margin: 0;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 20px;
 }
 
 h1,
@@ -45,7 +51,7 @@ p {
   font-family: "Noto Sans", sans-serif;
 }
 
-/* Grid */
+/* GRID */
 main {
   display: grid;
   grid-template-columns: 40px repeat(9, 1fr) 40px;
@@ -53,7 +59,7 @@ main {
 }
 
 section {
-  grid-column: 2/-2;
+  grid-column: 3/-3;
 }
 
 /* HEADER */
@@ -93,59 +99,3 @@ header {
 }
 /* HEADER SLUT */
 
-/* Index.html start */
-/* Index.html slut */
-
-/* Hund.html start */
-/* Hund.html  slut */
-
-/* adoption.html start */
-.introAdoption {
-  display: flex;
-}
-
-.introAdoption p {
-  width: 50%;
-}
-
-.adoptionFelt a,
-.adoptionsprocessFelt a,
-.vejledningFelt a{
-  text-decoration: none;
-  color: inherit;
-}
-
-.adoptionFelt,
-.adoptionsprocessFelt,
-.vejledningFelt {
-  height: 100px;
-  width: 300px;
-  color: var(--whiteColor);
-  font-size: var(--textSizeH3);
-}
-
-.adoptionFelt{
-  margin-top: 25px;
-  background-color: var(--darkGreen);
-}
-
-.adoptionsprocessFelt{
-  background-color: var(--lightGreen);
-}
-
-.vejledningFelt{
-  background-color: var(--lightGreen);
-}
-/* adoption.html slut */
-
-/* adoptionsprocess.html start */
-/* adoptionsprocess.html slut */
-
-/* Dyrepension.html start */
-/* Dyrepension.html slut */
-
-/* traning.html start */
-/* traning.html start */
-
-/* Vejledning.html start */
-/* Vejledning.html slut */
