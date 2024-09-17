@@ -1,6 +1,71 @@
+.hero-dyrpension {
+  background-image: url("../img/Hund_paatrand.jpg");
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  justify-content: flex-start;
+  padding: 0 2em;
+  padding-bottom: 4em;
+  color: var(--whiteColor);
+  align-items: center;
+}
 .content-dyrepension {
+  display: flex;
+  align-items: center; /* Justerer billede og tekst på midten af højde */
+  gap: 100px; /* Mellemrum mellem billede og tekst */
+  margin-top: 3rem;
+  align-items: flex-start;
+}
+
+.content-dyrepension h2 {
   display: flex;
   align-items: center; /* Justerer billede og tekst på midten af højde */
   gap: 20px; /* Mellemrum mellem billede og tekst */
   margin-top: 3rem;
+  align-items: flex-start;
+  margin: 0;
+}
+.content-image-dyrepension {
+  max-width: 450px; /* Begræns bredden af tekstområdet */
+}
+
+.h2-dyrepension {
+  text-align: center;
+}
+
+.info-section-dyrepension {
+  margin-top: 3rem;
+  background-color: #c3d899; /* Grøn baggrund for sektionen */
+  padding: 20px; /* Polstring omkring sektionen */
+  grid-column: 1/-1;
+}
+
+.info-grid-dyrepension {
+  display: grid;
+  grid-template-columns: repeat(2, 3fr); /* 3 kolonner på række */
+  gap: 20px; /* Mellemrum mellem elementerne i grid */
+  padding-inline: 188px;
+}
+
+.info-item-dyrepension {
+  display: flex;
+  align-items: center; /* Justerer billede og tekst til at være centreret vertikalt */
+  gap: 10px; /* Mellemrum mellem billede og tekst */
+  padding: 10px; /* Polstring omkring hver info-item */
+  box-sizing: border-box; /* Inkluderer padding og border i elementets totale bredde og højde */
+}
+
+.info-item-dyrepension img {
+  width: 50px; /* Fast bredde for billedet */
+  height: 50px; /* Fast højde for billedet */
+  object-fit: contain; /* Sørger for, at billedet ikke bliver forvrænget */
+}
+
+.info-item-dyrepension p {
+  margin: 0;
+  color: #000; /* Farve på teksten */
+  line-height: 1.4; /* Juster linjehøjden for bedre læsbarhed */
+  flex: 1; /* Sørger for, at teksten fylder det resterende rum */
 }
