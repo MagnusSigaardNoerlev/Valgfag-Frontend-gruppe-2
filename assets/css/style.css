@@ -59,6 +59,42 @@ article {
 /* Hund.html  slut */
 
 /* adoption.html start */
+.introAdoption {
+  display: flex;
+}
+
+.introAdoption p {
+  width: 50%;
+}
+
+.adoptionFelt a,
+.adoptionsprocessFelt a,
+.vejledningFelt a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.adoptionFelt,
+.adoptionsprocessFelt,
+.vejledningFelt {
+  height: 100px;
+  width: 300px;
+  color: var(--whiteColor);
+  font-size: var(--textSizeH3);
+}
+
+.adoptionFelt{
+  margin-top: 25px;
+  background-color: var(--darkGreen);
+}
+
+.adoptionsprocessFelt{
+  background-color: var(--lightGreen);
+}
+
+.vejledningFelt{
+  background-color: var(--lightGreen);
+}
 /* adoption.html slut */
 
 /* adoptionsprocess.html start */
