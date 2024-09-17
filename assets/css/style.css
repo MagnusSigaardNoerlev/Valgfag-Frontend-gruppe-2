@@ -57,10 +57,6 @@ section {
 
 /* Dyrepension.html start */
 
-body {
-  margin: 0;
-  padding: 0;
-}
 nav {
   display: flex;
   justify-content: space-between;
@@ -96,6 +92,19 @@ header {
   text-decoration: underline;
 }
 
+.hero-dyrpension {
+  background-image: url("../img/Hund_paatrand.jpg");
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  justify-content: flex-start;
+  padding: 0 2em;
+  padding-bottom: 4em;
+  color: var(--whiteColor);
+  align-items: center;
+}
 /* Dyrepension.html slut */
 
 /* traning.html start */

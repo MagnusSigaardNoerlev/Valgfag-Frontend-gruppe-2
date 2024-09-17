@@ -1,0 +1,6 @@
+.content-dyrepension {
+  display: flex;
+  align-items: center; /* Justerer billede og tekst på midten af højde */
+  gap: 20px; /* Mellemrum mellem billede og tekst */
+  margin-top: 3rem;
+}
