@@ -29,6 +29,15 @@
 }
 
 /* Grid */
+body {
+  margin: 0;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 40px repeat(9, 1fr) 40px;
+  gap: 20px;
+}
 
 section {
   grid-column: 2/-2;
