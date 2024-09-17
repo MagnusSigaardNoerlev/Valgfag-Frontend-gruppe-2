@@ -1,29 +1,50 @@
 /* --- IMPORTS --- */
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
 /* --- VARIABLES --- */
 :root {
-    /* COLORS */
-    --blackColor: #272727;
-    --greyColor: #E6E6E6;
-    --whiteColor: #FDFDFD;
-    --orangeColor: #EDBA83;
-    --darkGreen: #518962;
-    --mediumGreen: #67A379;
-    --lightGreen: #AAC479;
-    --ultraLightGreen: #C3D899; 
+  /* COLORS */
+  --blackColor: #272727;
+  --greyColor: #e6e6e6;
+  --whiteColor: #fdfdfd;
+  --orangeColor: #edba83;
+  --darkGreen: #518962;
+  --mediumGreen: #67a379;
+  --lightGreen: #aac479;
+  --ultraLightGreen: #c3d899;
 
-    /* TEXT SIZE */
-    --textSizeH1: 4.4rem;
-    --textSizeH2: 2.5rem;
-    --textSizeH3: 2.2rem;
-    --textSizeBase: 1.9rem;
+  /* TEXT SIZE */
+  --textSizeH1: 4.4rem;
+  --textSizeH2: 2.5rem;
+  --textSizeH3: 2.2rem;
+  --textSizeBase: 1.9rem;
 }
 
 /* --- UTILLITIES --- */
 *,
 *::after,
 *::before {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
+
+/* Index.html start */
+/* Index.html slut */
+
+/* Hund.html start */
+/* Hund.html  slut */
+
+/* adoption.html start */
+/* adoption.html slut */
+
+/* adoptionsprocess.html start */
+/* adoptionsprocess.html slut */
+
+/* Dyrepension.html start */
+/* Dyrepension.html slut */
+
+/* traning.html start */
+/* traning.html start */
+
+/* Vejledning.html start */
+/* Vejledning.html slut */
