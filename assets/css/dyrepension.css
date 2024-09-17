@@ -21,51 +21,120 @@
 
 .content-dyrepension h2 {
   display: flex;
-  align-items: center; /* Justerer billede og tekst på midten af højde */
-  gap: 20px; /* Mellemrum mellem billede og tekst */
+  align-items: center;
+  gap: 20px;
   margin-top: 3rem;
   align-items: flex-start;
   margin: 0;
 }
 .content-image-dyrepension {
-  max-width: 450px; /* Begræns bredden af tekstområdet */
+  max-width: 450px;
 }
 
+/* vores ydelser sektion*/
 .h2-dyrepension {
   text-align: center;
 }
 
 .info-section-dyrepension {
   margin-top: 3rem;
-  background-color: #c3d899; /* Grøn baggrund for sektionen */
-  padding: 20px; /* Polstring omkring sektionen */
+  background-color: #c3d899;
+  padding: 20px;
   grid-column: 1/-1;
 }
 
 .info-grid-dyrepension {
   display: grid;
-  grid-template-columns: repeat(2, 3fr); /* 3 kolonner på række */
-  gap: 20px; /* Mellemrum mellem elementerne i grid */
+  grid-template-columns: repeat(2, 3fr);
+  gap: 20px;
   padding-inline: 188px;
 }
 
 .info-item-dyrepension {
   display: flex;
-  align-items: center; /* Justerer billede og tekst til at være centreret vertikalt */
-  gap: 10px; /* Mellemrum mellem billede og tekst */
-  padding: 10px; /* Polstring omkring hver info-item */
-  box-sizing: border-box; /* Inkluderer padding og border i elementets totale bredde og højde */
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 .info-item-dyrepension img {
-  width: 50px; /* Fast bredde for billedet */
-  height: 50px; /* Fast højde for billedet */
-  object-fit: contain; /* Sørger for, at billedet ikke bliver forvrænget */
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
 }
 
 .info-item-dyrepension p {
   margin: 0;
-  color: #000; /* Farve på teksten */
-  line-height: 1.4; /* Juster linjehøjden for bedre læsbarhed */
-  flex: 1; /* Sørger for, at teksten fylder det resterende rum */
+  color: #000;
+  line-height: 1.4;
+  flex: 1;
+}
+
+/* Priser sektion */
+
+.line {
+  width: 299px;
+}
+.line-dyrpension {
+  display: flex;
+  align-items: center;
+}
+.hundepriser .line {
+  height: 2px;
+  background-color: #000;
+  margin-left: 5px;
+}
+
+/* kontakt formular */
+
+input[type="text"],
+select,
+textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+input[type="submit"] {
+  background-color: #edba83;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #67a379;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  flex: 1; /* Makes the form take up the remaining available space */
+  background-color: #aac479;
+  padding: 20px;
+  max-width: 35%; /* Limits the form to half the page */
+  box-sizing: border-box; /* Ensures padding doesn't affect width */
+}
+
+.hundepriser {
+  display: flex;
+  justify-content: space-between; /* Add space between text and form */
+  align-items: flex-start; /* Aligns both sections to the top */
+  flex-wrap: wrap; /* Makes it responsive, so content wraps on smaller screens */
+  gap: 20px;
+  margin-top: 20px;
+}
+.kontaktogpriser {
+  flex: 1; /* Makes this section take up available space */
+  max-width: 50%; /* Limits the width of the text section */
+}
+.kontaktogpriser h2 {
+  margin: 0;
 }
