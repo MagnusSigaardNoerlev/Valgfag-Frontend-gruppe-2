@@ -82,7 +82,6 @@
 
 /* SPECIFIKATION FILTER */
 .filterBox {
-  width: 300px;
   padding: 20px; 
   background-color: var(--lightGreen);
   margin-bottom: 25px; 
@@ -131,6 +130,9 @@ button:hover {
 .animalCard {
   background-color: var(--whiteColor);
   width: 250px;
+  display: flex;
+  gap: 20px;
+  margin-left: 50px;
 }
 
 .animalCard h3 {
