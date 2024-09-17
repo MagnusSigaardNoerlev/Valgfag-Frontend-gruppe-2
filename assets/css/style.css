@@ -19,11 +19,6 @@
   --textSizeH2: 2.5rem;
   --textSizeH3: 2.2rem;
   --textSizeBase: 1.9rem;
-
-  /* Grid */
-
-  section {
-    grid-column: 2/-2;
 }
 
 /* --- UTILLITIES --- */
@@ -31,6 +26,12 @@
 *::after,
 *::before {
   box-sizing: border-box;
+}
+
+/* Grid */
+
+section {
+  grid-column: 2/-2;
 }
 
 /* Index.html start */
