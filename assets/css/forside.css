@@ -11,12 +11,66 @@
   --ultraLightGreen: #c3d899;
 
   /* TEXT SIZE */
-  --textSizeH1: 4.4rem;
+  --textSizeH1: 4rem;
   --textSizeH2: 2.5rem;
   --textSizeH3: 2.2rem;
-  --textSizeBase: 1.9rem;
+  --textSizeBase: 1.3rem;
 }
 
+.forsideHero {
+  display: flex;
+  grid-column: 1/-1;
+}
+
+.forsideHero h1 {
+  font-size: var(--textSizeH1);
+  margin-bottom: 0px;
+}
+
+.forsideHero p {
+  font-size: var(--textSizeH3);
+}
+
+.forsideHero h1,
+.forsideHero p {
+  text-wrap: normal;
+}
+
+.forsideHeroImg {
+  line-height: 0;
+}
+
+.forsideHeroImg img {
+  height: 550px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Intro section*/
+.forsideIntro {
+  display: flex;
+  grid-column: 1/-1;
+  background-color: var(--ultraLightGreen);
+  align-items: center;
+}
+
+.forsideIntro p {
+  font-size: var(--textSizeBase);
+  text-wrap: normal;
+  margin-inline: 60px;
+  line-height: 40px;
+}
+
+.introImg {
+  line-height: 0;
+}
+
+.introImg img {
+  width: 700px;
+  height: 350px;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
 .forsideDyrTilAdoption {
   display: flex;
   flex-direction: column;
@@ -28,14 +82,15 @@
   align-items: center;
 }
 
-.forsideDyrTilAdoption .animalsCards .animalCard a {
+.animalCards {
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
 }
 
 .animalCard {
   background-color: var(--whiteColor);
-  width: 250px;
+  width: 310px;
+  line-height: 0;
 }
 
 .animalCard h3 {
@@ -47,8 +102,15 @@
   margin-top: 1px;
 }
 
+.animalCard p,
+.animalCard h3 {
+  margin-left: 10px;
+}
+
 .animalCard img {
-  width: 250px;
+  width: 310px;
+  height: 200px;
+  object-fit: cover;
 }
 
 .animalCard a {
@@ -73,6 +135,7 @@
   border-left-style: solid;
   border-width: 1px;
   border-color: var(--blackColor);
+  line-height: 20px;
 }
 
 .forsideBesøg {
