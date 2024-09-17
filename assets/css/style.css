@@ -28,11 +28,24 @@
   box-sizing: border-box;
 }
 
-/* Grid */
 body {
   margin: 0;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans", sans-serif;
+}
+
+p {
+  font-family: "Noto Sans", sans-serif;
+}
+
+/* Grid */
 main {
   display: grid;
   grid-template-columns: 40px repeat(9, 1fr) 40px;
@@ -42,15 +55,6 @@ main {
 section {
   grid-column: 2/-2;
 }
-
-/* section {
-  display: grid;
-  grid-template-columns: 40px 1fr 40px;
-}
-
-article {
-  grid-column: 2 / 3;
-} */
 
 /* Index.html start */
 /* Index.html slut */
