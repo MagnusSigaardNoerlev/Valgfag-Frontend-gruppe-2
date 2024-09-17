@@ -1,0 +1,85 @@
+/* --- VARIABLES --- */
+:root {
+  /* COLORS */
+  --blackColor: #272727;
+  --greyColor: #e6e6e6;
+  --whiteColor: #fdfdfd;
+  --orangeColor: #edba83;
+  --darkGreen: #518962;
+  --mediumGreen: #67a379;
+  --lightGreen: #aac479;
+  --ultraLightGreen: #c3d899;
+
+  /* TEXT SIZE */
+  --textSizeH1: 4.4rem;
+  --textSizeH2: 2.5rem;
+  --textSizeH3: 2.2rem;
+  --textSizeBase: 1.9rem;
+}
+
+.forsideDyrTilAdoption {
+  display: flex;
+  flex-direction: column;
+}
+
+.forsideDyrTilAdoption .titles {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.forsideDyrTilAdoption .animalsCards .animalCard a {
+  display: flex;
+  flex-direction: row;
+}
+
+.animalCard {
+  background-color: var(--whiteColor);
+  width: 250px;
+}
+
+.animalCard h3 {
+  margin-top: 5px;
+  margin-bottom: 4px;
+}
+
+.animalCard p {
+  margin-top: 1px;
+}
+
+.animalCard img {
+  width: 250px;
+}
+
+.animalCard a {
+  color: var(--blackColor);
+  text-decoration: none;
+}
+
+.gender {
+  display: flex;
+  align-items: baseline;
+}
+
+.gender i {
+  margin-left: 5px;
+}
+
+.animalCard .animalCardInfo {
+  padding: 5px 6px;
+  border-top-style: none;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-width: 1px;
+  border-color: var(--blackColor);
+}
+
+.forsideBesøg {
+  background-image: url(../img/forsideBesøgBanner.jpg);
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-column: 1/-1;
+}

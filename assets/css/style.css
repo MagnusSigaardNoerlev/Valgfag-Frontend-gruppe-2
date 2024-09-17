@@ -52,9 +52,46 @@ main {
   gap: 20px;
 }
 
-section {
+section:not(.exception) {
   grid-column: 2/-2;
 }
+
+/* HEADER */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+header {
+  background-color: var(--darkGreen);
+  padding: 10px 40px;
+}
+
+.header-logo {
+  flex: 1;
+}
+
+.header-ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.header-ul li {
+  margin: 0;
+}
+
+.header-ul li a {
+  text-decoration: none;
+  color: var(--whiteColor);
+}
+.header-ul li a:hover {
+  text-decoration: underline;
+}
+/* HEADER SLUT */
 
 /* footer */
 footer {
