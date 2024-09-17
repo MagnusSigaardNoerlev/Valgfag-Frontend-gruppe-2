@@ -30,15 +30,6 @@
 
 /* Grid */
 
-section {
-  display: grid;
-  grid-template-columns: 40px 1fr 40px;
-}
-
-article {
-  grid-column: 2 / 3;
-}
-
 /* footer */
 footer {
   background-color: var(--mediumGreen);
