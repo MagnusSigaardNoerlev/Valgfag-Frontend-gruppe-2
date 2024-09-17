@@ -4,8 +4,225 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Adoption</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <main>
+      <section class="introAdoption">
+        <h1>Adoption</h1>
+        <p>
+          Hos Sejr & Davidsens Dyrepension og -internat arbejder vi hver dag for
+          at sikre, at alle dyr får en ny chance i et kærligt og trygt hjem. Vi
+          ved, at hvert dyr har sin egen unikke historie, og vi er her for at
+          hjælpe dem med at finde den rigtige familie, hvor de kan trives.
+        </p>
+        <p>
+          Vores adoptionsproces er grundig og omsorgsfuld, da vi ønsker at skabe
+          det bedste match mellem dyret og dets nye ejer. Når du adopterer hos
+          os, får du ikke bare et kæledyr, men en ven for livet, der vil bringe
+          glæde og kærlighed ind i dit hjem. Vi støtter dig hele vejen gennem
+          adoptionsprocessen og tilbyder efterfølgende rådgivning, så både du og
+          dit nye kæledyr får den bedst mulige start sammen.
+        </p>
+        <p>
+          Uanset om du er på udkig efter en ny hund, kat eller et andet kæledyr,
+          står vores team klar til at hjælpe dig med at finde det perfekte
+          match. Kom og mød vores dejlige dyr, og bliv en del af vores mission
+          om at give dem en ny chance for et lykkeligt liv.
+        </p>
+      </section>
+
+      <aside class="adoptionBox">
+        <div class="adoptionMenu">
+          <div class="adoptionFelt">
+            <a href="#">Adoption</a>
+          </div>
+          <div class="adoptionsprocesFelt">
+            <a href="#">Adoptionsproces</a>
+          </div>
+          <div class="vejledningFelt">
+            <a href="#">Vejledning</a>
+          </div>
+        </div>
+      </aside>
+
+      <section class="filterSection">
+        <section class="dogAndCatFilter">
+          <h3>Filtre:</h3>
+          <button>Hunde</button>
+          <button>Katte</button>
+        </section>
+
+        <section class="filterBox">
+          <form>
+            <!-- Alder sektion -->
+            <fieldset>
+              <legend>Alder</legend>
+              <label>
+                0-6 måneder:
+                <input type="checkbox" name="filter" value="option1" />
+              </label>
+
+              <label>
+                7-11 måneder:
+                <input type="checkbox" name="filter" value="option2" />
+              </label>
+
+              <label>
+                1-3 år:
+                <input type="checkbox" name="filter" value="option3" />
+              </label>
+
+              <label>
+                4-6 år:
+                <input type="checkbox" name="filter" value="option4" />
+              </label>
+            </fieldset>
+
+            <!-- Køn sektion -->
+            <fieldset>
+              <legend>Køn</legend>
+              <label>
+                Han:
+                <input type="checkbox" name="filter" value="option1" />
+              </label>
+
+              <label>
+                Tæve:
+                <input type="checkbox" name="filter" value="option2" />
+              </label>
+            </fieldset>
+
+            <!-- Race sektion -->
+            <fieldset>
+              <legend>Race</legend>
+              <label>
+                Schæfer:
+                <input type="checkbox" name="filter" value="option1" />
+              </label>
+
+              <label>
+                Labrador Retriever:
+                <input type="checkbox" name="filter" value="option2" />
+              </label>
+
+              <label>
+                Drever:
+                <input type="checkbox" name="filter" value="option3" />
+              </label>
+
+              <label>
+                Pudel:
+                <input type="checkbox" name="filter" value="option4" />
+              </label>
+
+              <label>
+                Rottweiler:
+                <input type="checkbox" name="filter" value="option5" />
+              </label>
+            </fieldset>
+
+            <!-- Vægt sektion -->
+            <fieldset>
+              <legend>Vægt</legend>
+              <label>
+                0-2 kg:
+                <input type="checkbox" name="filter" value="option1" />
+              </label>
+
+              <label>
+                3-5 kg:
+                <input type="checkbox" name="filter" value="option2" />
+              </label>
+
+              <label>
+                6-10 kg:
+                <input type="checkbox" name="filter" value="option3" />
+              </label>
+
+              <label>
+                11-20 kg:
+                <input type="checkbox" name="filter" value="option4" />
+              </label>
+            </fieldset>
+
+            <!-- Pris sektion -->
+            <fieldset>
+              <legend>Pris</legend>
+              <label>
+                1.000-3.000 DKK:
+                <input type="checkbox" name="filter" value="option1" />
+              </label>
+
+              <label>
+                4.000-9.000 DKK:
+                <input type="checkbox" name="filter" value="option2" />
+              </label>
+
+              <label>
+                10.000-15.000 DKK:
+                <input type="checkbox" name="filter" value="option3" />
+              </label>
+            </fieldset>
+
+            <!-- Chipped sektion -->
+            <fieldset>
+              <legend>Chipped</legend>
+              <label>
+                Ja:
+                <input type="checkbox" name="filter" value="option1" />
+              </label>
+
+              <label>
+                Nej:
+                <input type="checkbox" name="filter" value="option2" />
+              </label>
+            </fieldset>
+
+            <button type="submit">Anvend filtre</button>
+          </form>
+        </section>
+
+        <section class="dyreCards">
+          <div>
+            <img src="#" alt="#" />
+            <h3>Loke</h3>
+            <p>Han</p>
+          </div>
+          <div>
+            <img src="#" alt="#" />
+            <h3>Molly</h3>
+            <p>Tæve</p>
+          </div>
+          <div>
+            <img src="#" alt="#" />
+            <h3>Pepsi</h3>
+            <p>Han</p>
+          </div>
+          <div>
+            <img src="#" alt="#" />
+            <h3>Luna</h3>
+            <p>Tæve</p>
+          </div>
+          <div>
+            <img src="#" alt="#" />
+            <h3>Bertram</h3>
+            <p>Han</p>
+          </div>
+          <div>
+            <img src="#" alt="#" />
+            <h3>Freja</h3>
+            <p>Tæve</p>
+          </div>
+        </section>
+      </section>
+    </main>
+  </body>
 </html>
