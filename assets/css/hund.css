@@ -17,17 +17,22 @@
   --textSizeBase: 1.9rem;
 }
 /* hund */
+h1 {
+  font-size: 2rem;
+}
+
 .imagesAndContact {
   align-items: start;
 }
 
 .dogImages {
   display: flex;
+  margin-bottom: 10px;
 }
 
 .bigImg img {
-  width: 600px;
-  height: 550px;
+  width: 520px;
+  height: 470px;
   object-fit: cover;
 }
 
@@ -39,8 +44,8 @@
 }
 
 .smallImgs img {
-  width: 177px;
-  height: 177px;
+  width: 150px;
+  height: 150px;
   object-fit: cover;
 }
 
@@ -69,7 +74,8 @@ textarea {
 
 input[type="submit"] {
   background-color: #edba83;
-  color: white;
+  color: var(--blackColor);
+  font-weight: 600;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
@@ -78,6 +84,13 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   background-color: #67a379;
+}
+
+#firstname,
+#number,
+#email,
+#subject {
+  font-family: "Noto Sans", sans-serif;
 }
 
 .hundepriser {
@@ -102,39 +115,37 @@ input[type="submit"]:hover {
   font-size: 1.1rem;
 }
 
-.firstRow,
-.secondRow {
+.dogMetaData {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
 }
 
-.firstRow div {
-  margin-bottom: 20px;
-}
-
-.firstRow div,
-.secondRow div {
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
+.dogMetaData div {
   margin-right: 50px;
 }
 
-.firstRow div h4,
-.secondRow div h4,
-.firstRow div p,
-.secondRow div p {
-  margin-block: 0px;
+.dogMetaData div h4 {
+  margin-bottom: 0px;
+}
+
+.dogMetaData div p {
+  margin-top: 5px;
+}
+
+.dogMetaData div h4:nth-of-type(1) {
+  margin-top: 0px;
 }
 
 .beskrivelse {
-  margin-right: 700px;
+  margin-right: 450px;
   text-wrap: normal;
 }
 
 .beskrivelse p {
   margin-top: 0px;
+}
+
+.beskrivelse h4 {
+  margin-bottom: 5px;
 }
 
 /* Dyr til adoption */
@@ -164,7 +175,7 @@ input[type="submit"]:hover {
 
 .animalCard {
   background-color: var(--whiteColor);
-  width: 310px;
+  width: 270px;
   line-height: 0;
 }
 
@@ -183,7 +194,7 @@ input[type="submit"]:hover {
 }
 
 .animalCard img {
-  width: 310px;
+  width: 270px;
   height: 200px;
   object-fit: cover;
 }
@@ -211,4 +222,13 @@ input[type="submit"]:hover {
   border-width: 1px;
   border-color: var(--blackColor);
   line-height: 20px;
+}
+
+.forsideDyrTilAdoption h2 {
+  margin-bottom: 0px;
+}
+
+.titles p {
+  margin-top: 5px;
+  font-size: 1.2rem;
 }
