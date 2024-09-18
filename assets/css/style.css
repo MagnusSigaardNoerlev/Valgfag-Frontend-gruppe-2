@@ -69,9 +69,12 @@ nav {
   align-items: center;
   padding: 10px 20px;
 }
+
 header {
   background-color: var(--darkGreen);
   padding: 10px 40px;
+  width: 100%;
+  position: fixed;
 }
 
 .header-logo {
