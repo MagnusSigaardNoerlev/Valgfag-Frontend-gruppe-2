@@ -12,9 +12,20 @@
 
   /* TEXT SIZE */
   --textSizeH1: 4rem;
-  --textSizeH2: 2.5rem;
-  --textSizeH3: 2.2rem;
-  --textSizeBase: 1.3rem;
+  --textSizeH2: 2rem;
+  --textSizeH3: 1.5rem;
+  --textSizeBase: 1.1rem;
+}
+
+.btn {
+  padding-inline: 25px;
+  padding-block: 10px;
+  background-color: var(--orangeColor);
+  color: var(--blackColor);
+  text-decoration: none;
+  border-radius: 30px;
+  font-size: var(--textSizeBase);
+  font-weight: 700;
 }
 
 .forsideHero {
@@ -71,15 +82,25 @@
   background-repeat: no-repeat;
   object-fit: cover;
 }
+
+/* Dyr til adoption */
 .forsideDyrTilAdoption {
   display: flex;
   flex-direction: column;
+  margin-bottom: 50px;
 }
 
 .forsideDyrTilAdoption .titles {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.titles a {
+  text-decoration: none;
+  color: var(--blackColor);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
 }
 
 .animalCards {
@@ -137,6 +158,134 @@
   border-color: var(--blackColor);
   line-height: 20px;
 }
+/* Focus entry point (FEP) */
+.adoptionFEP {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.76),
+      rgba(0, 0, 0, 0)
+    ),
+    url(../img/catFEP.jpg);
+}
+
+.treaningFEP {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.76),
+      rgba(0, 0, 0, 0)
+    ),
+    url(../img/treaningFEP.jpg);
+  background-position: center top;
+}
+
+.vejledningFEP {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.76),
+      rgba(0, 0, 0, 0)
+    ),
+    url(../img/vejledningFEP.jpg);
+  background-position: center;
+}
+
+.forsideFEP {
+  display: flex;
+  gap: 20px;
+}
+
+.forsideFEP > div {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.mainFocusEntryPoint {
+  width: 50%;
+  height: 420px;
+}
+
+.smallFocusEntryPoint {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.focusEntryPoint {
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: var(--whiteColor);
+  position: relative;
+  padding: 15px;
+}
+
+.forsideFEP h3 {
+  font-size: var(--textSizeH3);
+  position: absolute;
+  bottom: 80px;
+  left: 25px;
+}
+
+.forsideFEP p {
+  font-size: var(--textSizeBase);
+  position: absolute;
+  bottom: 60px;
+  left: 25px;
+}
+
+.forsideFEP .btn {
+  position: absolute;
+  bottom: 20px;
+  left: 16px;
+}
+
+/* Værdier */
+.forsideVærdier {
+  margin-top: 3rem;
+  background-color: #c3d899;
+  padding: 20px;
+  grid-column: 1/-1;
+}
+
+.forsideVærdier h2 {
+  font-size: var(--textSizeH2);
+}
+.undertitel {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.værdierTitel {
+  text-align: center;
+}
+
+.info-grid-dyrepension {
+  display: grid;
+  grid-template-columns: repeat(2, 3fr);
+  gap: 20px;
+  padding-inline: 188px;
+}
+
+.info-item-dyrepension {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.info-item-dyrepension i {
+  font-size: 1.5rem;
+}
+
+.info-item-dyrepension p {
+  margin: 0;
+  color: #000;
+  line-height: 1.4;
+  flex: 1;
+  font-size: var(--textSizeBase);
+}
+
+/* Besøg */
 
 .forsideBesøg {
   background-image: url(../img/forsideBesøgBanner.jpg);
@@ -145,4 +294,21 @@
   background-repeat: no-repeat;
   background-size: cover;
   grid-column: 1/-1;
+}
+
+.forsideBesøg article {
+  text-align: center;
+  margin-inline: 300px;
+}
+
+.forsideBesøg h1 {
+  font-size: var(--textSizeH1);
+  text-wrap: normal;
+  margin-bottom: 0px;
+}
+
+.forsideBesøg p {
+  font-size: var(--textSizeH3);
+  margin-top: 5px;
+  margin-bottom: 50px;
 }
