@@ -1,0 +1,194 @@
+/* HEADER */
+.hero-adoption {
+  background-image: url("../img/heroAdoption.jpg");
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  justify-content: flex-start;
+  padding: 0 2em;
+  padding-bottom: 4em;
+  color: var(--whiteColor);
+  align-items: center;
+}
+
+.hero-adoption h1{
+  margin-left: 180px;
+}
+
+/* INTROTEKST */
+.introAdoption {
+    display: flex;
+  }
+  
+  .introAdoption p {
+    width: 65%;
+  }
+  
+  /* NAVIGATIONS MENU */
+  .adoptionFelt a,
+  .adoptionsprocessFelt a,
+  .vejledningFelt a{
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .adoptionFelt,
+  .adoptionsprocessFelt,
+  .vejledningFelt {
+    height: 100px;
+    width: 300px;
+    color: var(--whiteColor);
+  }
+  
+  .adoptionFelt{
+    text-align: center;
+    margin-top: 90px;
+    background-color: var(--darkGreen);
+  }
+  
+  .adoptionsprocessFelt{
+    text-align: center;
+    background-color: var(--lightGreen);
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: var(--darkGreen);
+  }
+  
+  .vejledningFelt{
+    text-align: center;
+    background-color: var(--lightGreen);
+    box-shadow: 30px;
+  }
+
+  .navMenu a {
+    display: block;
+    display: flex;        
+    text-decoration: none;
+    color: var(--whiteColor);       
+    align-items: center;
+    justify-content: center;    
+}
+
+.navMenu a:hover {
+    background-color: var(--ultraLightGreen); 
+}
+
+/* FILTER */
+.dogAndCatFilter {
+  display: flex;
+  gap: 10px;
+}
+
+.dogAndCatFilter a {
+  text-decoration: none;
+  color: var(--blackColor);
+}
+
+.dyreValg {
+  display: block;
+  height: 50px;
+    width: 100px;
+    background-color: var(--lightGreen);
+    border-radius: 15px;
+    text-align: center;
+}
+
+.dyreValg :hover {
+  color: var(--darkGreen);
+}
+
+/* SPECIFIKATION FILTER */
+.filterBox {
+  width: 25%;
+  padding: 20px; 
+  background-color: var(--lightGreen);
+  margin-bottom: 25px; 
+}
+.filterBox form {
+  display: flex;
+  flex-direction: column;
+}
+.filterBox legend {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.filterBox label {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+.filterBox input[type="checkbox"] {
+  margin-left: 10px;
+}
+hr {
+  margin: 20px 0;
+  border: 2px solid var(--ultraLightGreen);
+}
+button {
+  align-self: start;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: var(--whiteColor);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: var(--orangeColor);
+}
+
+.filterSection {
+  display: flex;
+}
+
+/* ANIMAL CARDS */
+.animalCard {
+  background-color: var(--whiteColor);
+  width: 250px;
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+  gap: 20px;
+  margin-left: 20px;
+}
+
+.animalCard h3 {
+  margin-top: 5px;
+  margin-bottom: 4px;
+}
+
+.animalCard p {
+  margin-top: 1px;
+}
+
+.animalCard img {
+  width: 250px;
+}
+
+.animalCard a {
+  color: var(--blackColor);
+  text-decoration: none;
+}
+
+.gender {
+  display: flex;
+  align-items: baseline;
+}
+
+.gender i {
+  margin-left: 5px;
+}
+
+.animalCard .animalCardInfo {
+  padding: 5px 6px;
+  border-top-style: none;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-width: 1px;
+  border-color: var(--blackColor);
+}

@@ -1,0 +1,146 @@
+.hero-dyrpension {
+  background-image: url("../img/hundmedsnor.jpg");
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  justify-content: flex-start;
+  padding: 0 2em;
+  padding-bottom: 4em;
+  color: var(--whiteColor);
+  align-items: center;
+}
+.hero-dyrpension h1 {
+  margin-left: 180px;
+}
+/* INTROTEKST */
+.introProcess {
+  display: flex;
+}
+
+.introProcess p {
+  width: 65%;
+}
+
+/* NAVIGATIONS MENU */
+.adoptionFelt a,
+.adoptionsprocessFelt a,
+.vejledningFelt a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.adoptionFelt,
+.adoptionsprocessFelt,
+.vejledningFelt {
+  height: 100px;
+  width: 300px;
+  color: var(--whiteColor);
+}
+
+.adoptionFelt {
+  text-align: center;
+  margin-top: 90px;
+  background-color: var(--darkGreen);
+}
+
+.adoptionsprocessFelt {
+  text-align: center;
+  background-color: var(--lightGreen);
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-color: var(--darkGreen);
+}
+
+.vejledningFelt {
+  text-align: center;
+  background-color: var(--lightGreen);
+  box-shadow: 30px;
+}
+
+.navMenu a {
+  display: block;
+  display: flex;
+  text-decoration: none;
+  color: var(--whiteColor);
+  align-items: center;
+  justify-content: center;
+}
+
+.navMenu a:hover {
+  background-color: var(--ultraLightGreen);
+}
+
+/* BREADCRUMBS */
+.breadcrumbs {
+  margin-top: 25px;
+}
+
+.breadcrumbs a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.breadcrumbs .back {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+.breadcrumbs .stay {
+  color: var(--whiteColor);
+  background-color: var(--darkGreen);
+  padding: 8px;
+}
+
+.breadcrumbs i {
+  margin-right: 5px;
+}
+
+.breadcrumbs a:hover {
+  text-decoration: underline;
+}
+
+/* lavet grid til vores artikler */
+
+.image-grid-artikler {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 3rem;
+}
+
+.image-item-artikler {
+  text-align: center;
+}
+
+.image-item-artikler img {
+  width: 100%;
+  height: auto;
+  display: block;
+  height: 200px;
+}
+
+.image-text-artikler {
+  background-color: #edba83;
+  padding: 10px;
+  color: #272727;
+  margin-bottom: 3rem;
+}
+.section-title {
+  grid-column: 3/7;
+}
+
+.row-title-artikler {
+  margin: 20px 0;
+}
+.gray-background {
+  max-width: 1130px;
+  margin: 0 auto;
+}
+.full-width-background {
+  background-color: #e6e6e6;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%); /* Strækker baggrunden ud til begge sider */
+  padding: 20px 0;
+}
