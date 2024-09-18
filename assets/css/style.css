@@ -62,12 +62,14 @@ section {
   grid-column: 3/-3;
 }
 
+
 /* HEADER */
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
+  font-family: "Noto Sans", sans-serif;
 }
 
 header {

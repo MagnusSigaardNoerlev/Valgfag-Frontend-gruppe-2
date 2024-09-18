@@ -78,6 +78,8 @@
   /* BREADCRUMBS */
 .breadcrumbs {
   margin-top: 25px;
+  font-family: "Noto Sans", sans-serif;
+
 }
 
   .breadcrumbs a{
@@ -106,6 +108,7 @@
 
   /* SPRING TIL */
 .springTil {
+  font-family: "Noto Sans", sans-serif;
   margin-bottom: 25px;
 }
 
@@ -129,21 +132,19 @@
 .trinForTrin{
   display: flex;
   gap: 75px;
-  margin-bottom: 65px;
+  margin-bottom: 25px;
 }
 
 .trinForTrin img{
   height: 300px;
   width: 50%;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding: 25px;
 }
 
 .trinForTrin p {
   width: 50%;
   margin: 0;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding: 25px;
 }
 
 .trinOverskrift {
@@ -151,6 +152,59 @@
 }
 
 .greyBackground{
-  background-color: var(--greyColor);
-  grid-column: 1 / -1;
+  max-width: 1130px;
+  margin: 0 auto;
 }
+
+.fullWidthBackground {
+  background-color: var(--greyColor);
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+}
+
+/* ACCORDIANS */
+.accordiansProcess {
+  display: flex;
+  gap: 50px;
+}
+
+.faqIntro p,
+.kravIntro p {
+  margin-bottom: 35px;
+}
+
+.accordionStart {
+  font-family: "Noto Sans", sans-serif;
+  color: var(--whiteColor);
+  cursor: pointer;
+  padding-right: 35px;
+  padding-left: 35px;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  height: 57px;
+  background-color: var(--lightGreen);
+  margin-bottom: 15px;
+}
+
+.contentAccordian {
+  padding: 10px 5px;
+  cursor: pointer;
+  box-shadow: 0 10px 10px rgb(0 0 0 / 0.2);
+  padding-right: 25px;
+  padding-left: 25px;
+  margin-bottom: 25px;
+  max-width: 700px;
+}
+
+.active {
+  background-color: var(--darkGreen);
+}
+
+
+/* FOOTER MARGIN */
+ footer{
+  margin-top: 25px;
+ }
