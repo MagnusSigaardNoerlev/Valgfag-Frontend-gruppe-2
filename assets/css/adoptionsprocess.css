@@ -44,7 +44,7 @@
     
     .adoptionFelt{
       text-align: center;
-      margin-top: 150px;
+      margin-top: 90px;
       background-color: var(--darkGreen);
     }
     
@@ -74,3 +74,29 @@
   .navMenu a:hover {
       background-color: var(--ultraLightGreen); 
   }
+
+  /* BREADCRUMBS */
+.breadcrumbs {
+  margin-top: 25px;
+}
+
+  .breadcrumbs a{
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .breadcrumbs .back{
+    border: 1px solid black;
+    padding: 8px;
+  }
+
+  .breadcrumbs .stay{
+    color: var(--whiteColor);
+    background-color: var(--darkGreen);
+    padding: 8px;
+  }
+
+  .breadcrumbs i{
+    margin-right: 5px;
+  }
+
