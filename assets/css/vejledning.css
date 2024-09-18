@@ -1,0 +1,16 @@
+.hero-dyrpension {
+  background-image: url("../img/Hund_paatrand.jpg");
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  justify-content: flex-start;
+  padding: 0 2em;
+  padding-bottom: 4em;
+  color: var(--whiteColor);
+  align-items: center;
+}
+.hero-dyrpension h1 {
+  margin-left: 180px;
+}
