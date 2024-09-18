@@ -29,6 +29,7 @@
 }
 
 .forsideHero {
+  margin-top: 80px;
   display: flex;
   grid-column: 1/-1;
 }
@@ -110,7 +111,7 @@
 
 .animalCard {
   background-color: var(--whiteColor);
-  width: 310px;
+  width: 270px;
   line-height: 0;
 }
 
@@ -129,7 +130,7 @@
 }
 
 .animalCard img {
-  width: 310px;
+  width: 270px;
   height: 200px;
   object-fit: cover;
 }
