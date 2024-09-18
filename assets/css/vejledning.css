@@ -14,6 +14,92 @@
 .hero-dyrpension h1 {
   margin-left: 180px;
 }
+/* INTROTEKST */
+.introProcess {
+  display: flex;
+}
+
+.introProcess p {
+  width: 65%;
+}
+
+/* NAVIGATIONS MENU */
+.adoptionFelt a,
+.adoptionsprocessFelt a,
+.vejledningFelt a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.adoptionFelt,
+.adoptionsprocessFelt,
+.vejledningFelt {
+  height: 100px;
+  width: 300px;
+  color: var(--whiteColor);
+}
+
+.adoptionFelt {
+  text-align: center;
+  margin-top: 90px;
+  background-color: var(--darkGreen);
+}
+
+.adoptionsprocessFelt {
+  text-align: center;
+  background-color: var(--lightGreen);
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-color: var(--darkGreen);
+}
+
+.vejledningFelt {
+  text-align: center;
+  background-color: var(--lightGreen);
+  box-shadow: 30px;
+}
+
+.navMenu a {
+  display: block;
+  display: flex;
+  text-decoration: none;
+  color: var(--whiteColor);
+  align-items: center;
+  justify-content: center;
+}
+
+.navMenu a:hover {
+  background-color: var(--ultraLightGreen);
+}
+
+/* BREADCRUMBS */
+.breadcrumbs {
+  margin-top: 25px;
+}
+
+.breadcrumbs a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.breadcrumbs .back {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+.breadcrumbs .stay {
+  color: var(--whiteColor);
+  background-color: var(--darkGreen);
+  padding: 8px;
+}
+
+.breadcrumbs i {
+  margin-right: 5px;
+}
+
+.breadcrumbs a:hover {
+  text-decoration: underline;
+}
 
 /* lavet grid til vores artikler */
 
