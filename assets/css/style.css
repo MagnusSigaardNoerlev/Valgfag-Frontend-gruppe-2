@@ -13,7 +13,8 @@
   --mediumGreen: #67a379;
   --lightGreen: #aac479;
   --ultraLightGreen: #c3d899;
-
+  
+  
   /* TEXT SIZE */
   --textSizeH1: 4.4rem;
   --textSizeH2: 2.5rem;
@@ -32,6 +33,18 @@ body {
   margin: 0;
 }
 
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
 h1,
 h2,
 h3,
@@ -39,14 +52,14 @@ h4,
 h5,
 h6,
 .btn {
-  font-family: "Open Sans", sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 
 p {
   font-family: "Noto Sans", sans-serif;
 }
 
-/* Grid */
+/* GRID */
 main {
   display: grid;
   grid-template-columns: 40px repeat(9, 1fr) 40px;
@@ -146,25 +159,3 @@ footer p {
 .internatInformation {
   display: flex;
   align-items: center;
-}
-
-/* Index.html start */
-/* Index.html slut */
-
-/* Hund.html start */
-/* Hund.html  slut */
-
-/* adoption.html start */
-/* adoption.html slut */
-
-/* adoptionsprocess.html start */
-/* adoptionsprocess.html slut */
-
-/* Dyrepension.html start */
-/* Dyrepension.html slut */
-
-/* traning.html start */
-/* traning.html start */
-
-/* Vejledning.html start */
-/* Vejledning.html slut */
