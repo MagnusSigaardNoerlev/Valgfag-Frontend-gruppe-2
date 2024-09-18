@@ -1,6 +1,6 @@
-function openCity(evt, cityName) {
+function openCity(tap, cityName) {
   // Erklær alle variabler.
-  var i, tabcontent, tablinks;
+  let i, tabcontent, tablinks;
 
   // Hent alle elementer med klassen "tabcontent" og skjul dem.
   tabcontent = document.getElementsByClassName("tabcontent");
@@ -16,7 +16,7 @@ function openCity(evt, cityName) {
 
   // Viser den aktuelle tab, og tilføj en "aktiv" klasse til knappen, der åbnede tab'en.
   document.getElementById(cityName).style.display = "block";
-  evt.currentTarget.className += " active";
+  tap.currentTarget.className += " active";
 }
 
 // åbner vores første tap når brugere gå ind på sideb

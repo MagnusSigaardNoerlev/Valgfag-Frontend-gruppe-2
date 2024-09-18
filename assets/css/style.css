@@ -13,62 +13,6 @@
   --mediumGreen: #67a379;
   --lightGreen: #aac479;
   --ultraLightGreen: #c3d899;
-
-  /* TEXT SIZE */
-  --textSizeH1: 4.4rem;
-  --textSizeH2: 2.5rem;
-  --textSizeH3: 2.2rem;
-  --textSizeBase: 1.9rem;
-}
-
-/* --- UTILLITIES --- */
-*,
-*::after,
-*::before {
-  box-sizing: border-box;
-}
-
-/* Grid */
-
-section {
-  grid-column: 2/-2;
-}
-
-/* Index.html start */
-/* Index.html slut */
-
-/* Hund.html start */
-/* Hund.html  slut */
-
-/* adoption.html start */
-/* adoption.html slut */
-
-/* adoptionsprocess.html start */
-/* adoptionsprocess.html slut */
-
-/* Dyrepension.html start */
-/* Dyrepension.html slut */
-
-/* traning.html start */
-/* traning.html start */
-
-/* Vejledning.html start */
-/* Vejledning.html slut */
-/* --- IMPORTS --- */
-
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
-
-/* --- VARIABLES --- */
-:root {
-  /* COLORS */
-  --blackColor: #272727;
-  --greyColor: #e6e6e6;
-  --whiteColor: #fdfdfd;
-  --orangeColor: #edba83;
-  --darkGreen: #518962;
-  --mediumGreen: #67a379;
-  --lightGreen: #aac479;
-  --ultraLightGreen: #c3d899;
 }
 
 /* --- UTILLITIES --- */
@@ -124,10 +68,14 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
+  font-family: "Noto Sans", sans-serif;
 }
+
 header {
   background-color: var(--darkGreen);
   padding: 10px 40px;
+  width: 100%;
+  position: fixed;
 }
 
 .header-logo {
@@ -154,29 +102,6 @@ header {
   text-decoration: underline;
 }
 /* HEADER SLUT */
-
-/* Index.html start */
-/* Index.html slut */
-
-/* Hund.html start */
-/* Hund.html  slut */
-
-/* adoption.html start */
-/* adoption.html slut */
-
-/* adoptionsprocess.html start */
-/* adoptionsprocess.html slut */
-
-/* Dyrepension.html start */
-
-/* Dyrepension.html slut */
-
-/* traning.html start */
-/* traning.html start */
-
-/* Vejledning.html start */
-/* Vejledning.html slut */
-/* --- IMPORTS --- */
 
 /* footer */
 footer {
