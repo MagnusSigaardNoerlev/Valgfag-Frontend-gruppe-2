@@ -100,3 +100,53 @@
     margin-right: 5px;
   }
 
+  .breadcrumbs a:hover {
+    text-decoration: underline;
+  }
+
+  /* SPRING TIL */
+.springTil {
+  margin-bottom: 25px;
+}
+
+.springTil a{
+  text-decoration: none;
+  color: var(--whiteColor);
+  background-color: var(--orangeColor);
+  padding: 8px;
+  border-radius: 2rem;
+}
+
+.springTil a:hover {
+  text-decoration: underline;
+}
+
+/* TRIN FOR TRIN */
+.trinForTrinSection h3{
+  margin-bottom: 35px;
+}
+
+.trinForTrin{
+  display: flex;
+  gap: 75px;
+  margin-bottom: 65px;
+}
+
+.trinForTrin img{
+  height: 300px;
+  width: 50%;
+}
+
+.trinForTrin p {
+  width: 50%;
+  margin: 0;
+}
+
+.trinOverskrift {
+  font-weight: bold;
+}
+
+.greyBackground{
+  background-color: var(--greyColor);
+  grid-column: 1 / -1;
+}
