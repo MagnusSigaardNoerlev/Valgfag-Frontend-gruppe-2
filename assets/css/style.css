@@ -76,10 +76,14 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
+  font-family: "Noto Sans", sans-serif;
 }
+
 header {
   background-color: var(--darkGreen);
   padding: 10px 40px;
+  width: 100%;
+  position: fixed;
 }
 
 .header-logo {
