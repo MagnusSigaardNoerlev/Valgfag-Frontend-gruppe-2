@@ -13,6 +13,13 @@
   --mediumGreen: #67a379;
   --lightGreen: #aac479;
   --ultraLightGreen: #c3d899;
+  
+  
+  /* TEXT SIZE */
+  --textSizeH1: 4.4rem;
+  --textSizeH2: 2.5rem;
+  --textSizeH3: 2.2rem;
+  --textSizeBase: 1.9rem;
 }
 
 /* --- UTILLITIES --- */
@@ -43,8 +50,9 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-  font-family: "Open Sans", sans-serif;
+h6,
+.btn {
+    font-family: "Open Sans", sans-serif;
 }
 
 p {
@@ -58,7 +66,7 @@ main {
   gap: 20px;
 }
 
-section {
+section:not(.exception) {
   grid-column: 3/-3;
 }
 
@@ -68,14 +76,10 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  font-family: "Noto Sans", sans-serif;
 }
-
 header {
   background-color: var(--darkGreen);
   padding: 10px 40px;
-  width: 100%;
-  position: fixed;
 }
 
 .header-logo {
@@ -155,4 +159,3 @@ footer p {
 .internatInformation {
   display: flex;
   align-items: center;
-}
