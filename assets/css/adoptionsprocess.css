@@ -135,11 +135,15 @@
 .trinForTrin img{
   height: 300px;
   width: 50%;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .trinForTrin p {
   width: 50%;
   margin: 0;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .trinOverskrift {
