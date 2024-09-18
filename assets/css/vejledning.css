@@ -1,5 +1,5 @@
 .hero-dyrpension {
-  background-image: url("../img/Hund_paatrand.jpg");
+  background-image: url("../img/hundmedsnor.jpg");
   height: 600px;
   background-size: cover;
   background-position: center;
@@ -13,4 +13,48 @@
 }
 .hero-dyrpension h1 {
   margin-left: 180px;
+}
+
+/* lavet grid til vores artikler */
+
+.image-grid-artikler {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 3rem;
+}
+
+.image-item-artikler {
+  text-align: center;
+}
+
+.image-item-artikler img {
+  width: 100%;
+  height: auto;
+  display: block;
+  height: 200px;
+}
+
+.image-text-artikler {
+  background-color: #edba83;
+  padding: 10px;
+  color: #272727;
+  margin-bottom: 3rem;
+}
+.section-title {
+  grid-column: 3/7;
+}
+
+.row-title-artikler {
+  margin: 20px 0;
+}
+.gray-background {
+  max-width: 1130px;
+  margin: 0 auto;
+}
+.full-width-background {
+  background-color: #e6e6e6;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%); /* Strækker baggrunden ud til begge sider */
+  padding: 20px 0;
 }
