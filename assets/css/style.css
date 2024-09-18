@@ -13,13 +13,6 @@
   --mediumGreen: #67a379;
   --lightGreen: #aac479;
   --ultraLightGreen: #c3d899;
-  
-  
-  /* TEXT SIZE */
-  --textSizeH1: 4.4rem;
-  --textSizeH2: 2.5rem;
-  --textSizeH3: 2.2rem;
-  --textSizeBase: 1.9rem;
 }
 
 /* --- UTILLITIES --- */
@@ -66,7 +59,7 @@ main {
   gap: 20px;
 }
 
-section:not(.exception) {
+section {
   grid-column: 3/-3;
 }
 
