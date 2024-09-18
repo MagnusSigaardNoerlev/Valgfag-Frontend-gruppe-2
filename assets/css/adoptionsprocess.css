@@ -18,11 +18,11 @@
   }
   
   /* INTROTEKST */
-  .introAdoption {
+  .introProcess {
       display: flex;
     }
     
-    .introAdoption p {
+    .introProcess p {
       width: 65%;
     }
     
