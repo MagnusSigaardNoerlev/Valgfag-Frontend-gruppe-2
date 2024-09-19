@@ -75,6 +75,7 @@
 /* BREADCRUMBS */
 .breadcrumbs {
   margin-top: 25px;
+  font-family: "Noto Sans", sans-serif;
 }
 
 .breadcrumbs a {

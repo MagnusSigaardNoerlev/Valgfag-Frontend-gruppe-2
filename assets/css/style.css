@@ -60,7 +60,7 @@ main,
   gap: 20px;
 }
 
-section:not(.exception) {
+section {
   grid-column: 3/-3;
 }
 
