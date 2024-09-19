@@ -45,21 +45,22 @@ h4,
 h5,
 h6,
 .btn {
-    font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 p {
   font-family: "Noto Sans", sans-serif;
 }
 
-/* GRID */
-main {
+/* Grid */
+main,
+.imagesAndContact {
   display: grid;
   grid-template-columns: 40px repeat(9, 1fr) 40px;
   gap: 20px;
 }
 
-section {
+section:not(.exception) {
   grid-column: 3/-3;
 }
 

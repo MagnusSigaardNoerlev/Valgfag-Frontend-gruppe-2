@@ -1,0 +1,234 @@
+/* --- VARIABLES --- */
+:root {
+  /* COLORS */
+  --blackColor: #272727;
+  --greyColor: #e6e6e6;
+  --whiteColor: #fdfdfd;
+  --orangeColor: #edba83;
+  --darkGreen: #518962;
+  --mediumGreen: #67a379;
+  --lightGreen: #aac479;
+  --ultraLightGreen: #c3d899;
+
+  /* TEXT SIZE */
+  --textSizeH1: 4.4rem;
+  --textSizeH2: 2.5rem;
+  --textSizeH3: 2.2rem;
+  --textSizeBase: 1.9rem;
+}
+/* hund */
+h1 {
+  font-size: 2rem;
+}
+
+.imagesAndContact {
+  align-items: start;
+}
+
+.dogImages {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.bigImg img {
+  width: 520px;
+  height: 470px;
+  object-fit: cover;
+}
+
+.smallImgs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 10px;
+}
+
+.smallImgs img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.container {
+  grid-column: 8 / 12;
+  background-color: #aac479;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 3rem;
+}
+
+/* kontakt formular */
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #edba83;
+  color: var(--blackColor);
+  font-weight: 600;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #67a379;
+}
+
+#firstname,
+#number,
+#email,
+#subject {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.hundepriser {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 3rem;
+}
+.kontaktogpriser {
+  flex: 1;
+  max-width: 50%;
+}
+.kontaktogpriser h2 {
+  margin: 0;
+}
+
+/* dog information */
+.specificDogInformationContainer h4,
+.specificDogInformationContainer p {
+  font-size: 1.1rem;
+}
+
+.dogMetaData {
+  display: flex;
+}
+
+.dogMetaData div {
+  margin-right: 50px;
+}
+
+.dogMetaData div h4 {
+  margin-bottom: 0px;
+}
+
+.dogMetaData div p {
+  margin-top: 5px;
+}
+
+.dogMetaData div h4:nth-of-type(1) {
+  margin-top: 0px;
+}
+
+.beskrivelse {
+  margin-right: 450px;
+  text-wrap: normal;
+}
+
+.beskrivelse p {
+  margin-top: 0px;
+}
+
+.beskrivelse h4 {
+  margin-bottom: 5px;
+}
+
+/* Dyr til adoption */
+.forsideDyrTilAdoption {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.forsideDyrTilAdoption .titles {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.titles a {
+  text-decoration: none;
+  color: var(--blackColor);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+.animalCards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.animalCard {
+  background-color: var(--whiteColor);
+  width: 270px;
+  line-height: 0;
+}
+
+.animalCard h3 {
+  margin-top: 5px;
+  margin-bottom: 4px;
+}
+
+.animalCard p {
+  margin-top: 1px;
+}
+
+.animalCard p,
+.animalCard h3 {
+  margin-left: 10px;
+}
+
+.animalCard img {
+  width: 270px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.animalCard a {
+  color: var(--blackColor);
+  text-decoration: none;
+}
+
+.gender {
+  display: flex;
+  align-items: baseline;
+}
+
+.gender i {
+  margin-left: 5px;
+}
+
+.animalCard .animalCardInfo {
+  padding: 5px 6px;
+  border-top-style: none;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-width: 1px;
+  border-color: var(--blackColor);
+  line-height: 20px;
+}
+
+.forsideDyrTilAdoption h2 {
+  margin-bottom: 0px;
+}
+
+.titles p {
+  margin-top: 5px;
+  font-size: 1.2rem;
+}

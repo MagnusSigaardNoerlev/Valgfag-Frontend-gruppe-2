@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Sejr og Davidsens Dyrepension og internat,</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="./assets/js/app.js" defer></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
@@ -11,7 +13,218 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/hund.css" />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <nav>
+        <div class="header-logo">
+          <a href="index.html">
+            <img
+              src="./assets/img/sejr--davidsens-high-resolution-logo-transparent.png"
+              alt="header Logo sejr&davidsen"
+              width="150px"
+            />
+          </a>
+        </div>
+        <div>
+          <ul class="header-ul">
+            <li><a href="index.html">Forside</a></li>
+            <li><a href="adoption.html">Adoption</a></li>
+            <li><a href="dyrepension.html">Dyrepension</a></li>
+            <li><a href="training.html">Adfærdstræning</a></li>
+            <li><a href="#">Ekspertråd</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="specificDogInformationContainer">
+        <h1>Charlie</h1>
+        <div class="imagesAndContact">
+          <article class="dogImages">
+            <div class="bigImg">
+              <img src="./assets/img/goldenRetrieverCharlie.jpg" alt="" />
+            </div>
+            <div class="smallImgs">
+              <img src="./assets/img/goldenRetrieverCharlie.jpg" alt="" />
+              <img src="./assets/img/goldenRetrieverCharlie.jpg" alt="" />
+              <img src="./assets/img/goldenRetrieverCharlie.jpg" alt="" />
+            </div>
+          </article>
+
+          <article class="container">
+            <h2>Kontakt os omkring Charlie</h2>
+            <form action="action_page.php">
+              <label for="name"></label>
+              <input
+                type="text"
+                id="name"
+                name="firstname"
+                placeholder="Dit navn.."
+              />
+
+              <label for="Email"></label>
+              <input
+                type="text"
+                id="email"
+                name="firstname"
+                placeholder="Din email"
+              />
+
+              <label for="number"></label>
+              <input
+                type="text"
+                id="number"
+                name="firstname"
+                placeholder="Dit telefon nr."
+              />
+
+              <label for="subject"></label>
+              <textarea
+                id="subject"
+                name="subject"
+                placeholder="Skriv en besked"
+                style="height: 80px"
+              ></textarea>
+              <input type="submit" value="Send beskeden" />
+            </form>
+          </article>
+        </div>
+
+        <article class="dogMetaData">
+          <div>
+            <h4>Alder:</h4>
+            <p>7 måneder</p>
+
+            <h4>Vægt:</h4>
+            <p>20 kg</p>
+          </div>
+
+          <div>
+            <h4>Køn:</h4>
+            <p>Han</p>
+
+            <h4>Pris:</h4>
+            <p>10.000 kr</p>
+          </div>
+
+          <div>
+            <h4>Race:</h4>
+            <p>Golden Retriever</p>
+
+            <h4>Chipped:</h4>
+            <p>Ja</p>
+          </div>
+        </article>
+
+        <article class="beskrivelse">
+          <h4>Beskrivelse:</h4>
+          <p>
+            Charlie er en lille, blød golden retriever hvalp, der elsker at
+            udforske verden på sine små gåture. Han er altid fuld af energi, men
+            efter en lang tur falder han hurtigt i søvn, puttet og afslappet.
+            Charlie er kærlig, legesyg og rigtig sød.
+          </p>
+        </article>
+      </section>
+
+      <section class="forsideDyrTilAdoption">
+        <h2>Andre der søger et hjem</h2>
+        <div class="titles">
+          <p>Mød flere søde dyr der venter</p>
+          <a href="">Se alle dyrene <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+        <section class="animalCards">
+          <article class="animalCard">
+            <a class="animalCard" href="">
+              <img src="./assets/img/catCosmo.jpg" alt="" />
+              <article class="animalCardInfo">
+                <h3>Cosmo</h3>
+                <div class="gender">
+                  <p>Han</p>
+                  <i class="fa-solid fa-mars"></i>
+                </div>
+              </article>
+            </a>
+          </article>
+
+          <article class="animalCard">
+            <a href="#">
+              <img src="./assets/img/goldenRetrieverCharlie.jpg" alt="" />
+              <div class="animalCardInfo">
+                <h3>Charlie</h3>
+                <div class="gender">
+                  <p>Han</p>
+                  <i class="fa-solid fa-mars"></i>
+                </div>
+              </div>
+            </a>
+          </article>
+
+          <article class="animalCard">
+            <a href="">
+              <img src="./assets/img/goldenRetrieverCharlie.jpg" alt="" />
+              <article class="animalCardInfo">
+                <h3>Molly</h3>
+                <div class="gender">
+                  <p>Tæve</p>
+                  <i class="fa-solid fa-venus"></i>
+                </div>
+              </article>
+            </a>
+          </article>
+
+          <article class="animalCard">
+            <a href="">
+              <img src="./assets/img/bunnyPjuske.jpg" alt="" />
+              <article class="animalCardInfo">
+                <h3>Pjuske</h3>
+                <div class="gender">
+                  <p>Han</p>
+                  <i class="fa-solid fa-mars"></i>
+                </div>
+              </article>
+            </a>
+          </article>
+        </section>
+      </section>
+    </main>
+
+    <footer>
+      <article>
+        <div class="internatInformation">
+          <div class="icons">
+            <i class="fa-solid fa-phone icon"></i>
+            <i class="fa-solid fa-envelope icon"></i>
+            <i class="fa-solid fa-location-dot icon"></i>
+            <i class="fa-solid fa-copyright icon"></i>
+            <p class="icon cvr">CVR</p>
+          </div>
+          <div class="information">
+            <p>+45 3145 3394</p>
+            <p>sejr&davidsen@outlook.com</p>
+            <p>Dethererenadresse 108b</p>
+            <p>Sejr&Davidsen</p>
+            <p>35336609</p>
+          </div>
+        </div>
+      </article>
+      <article>
+        <a href="#"
+          ><img
+            class="logo"
+            src="./assets/img/sejr--davidsens-high-resolution-logo-transparent.png"
+            alt=""
+        /></a>
+      </article>
+      <article class="socialMedia">
+        <i class="fa-brands fa-square-facebook"></i>
+        <i class="fa-brands fa-square-instagram"></i>
+        <i class="fa-brands fa-square-x-twitter"></i>
+      </article>
+    </footer>
+  </body>
 </html>
