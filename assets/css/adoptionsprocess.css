@@ -1,0 +1,210 @@
+/* HEADER */
+.hero-process {
+    background-image: url("../img/heroProcess.jpg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    justify-content: flex-start;
+    padding: 0 2em;
+    padding-bottom: 4em;
+    color: var(--whiteColor);
+    align-items: center;
+  }
+  
+  .hero-process h1{
+    margin-left: 180px;
+  }
+  
+  /* INTROTEKST */
+  .introProcess {
+      display: flex;
+    }
+    
+    .introProcess p {
+      width: 65%;
+    }
+    
+    /* NAVIGATIONS MENU */
+    .adoptionFelt a,
+    .adoptionsprocessFelt a,
+    .vejledningFelt a{
+      text-decoration: none;
+      color: inherit;
+    }
+    
+    .adoptionFelt,
+    .adoptionsprocessFelt,
+    .vejledningFelt {
+      height: 100px;
+      width: 300px;
+      color: var(--whiteColor);
+    }
+    
+    .adoptionFelt{
+      text-align: center;
+      margin-top: 90px;
+      background-color: var(--darkGreen);
+    }
+    
+    .adoptionsprocessFelt{
+      text-align: center;
+      background-color: var(--lightGreen);
+      border-top-style: solid;
+      border-bottom-style: solid;
+      border-color: var(--darkGreen);
+    }
+    
+    .vejledningFelt{
+      text-align: center;
+      background-color: var(--lightGreen);
+      box-shadow: 30px;
+    }
+  
+    .navMenu a {
+      display: block;
+      display: flex;        
+      text-decoration: none;
+      color: var(--whiteColor);       
+      align-items: center;
+      justify-content: center;    
+  }
+  
+  .navMenu a:hover {
+      background-color: var(--ultraLightGreen); 
+  }
+
+  /* BREADCRUMBS */
+.breadcrumbs {
+  margin-top: 25px;
+  font-family: "Noto Sans", sans-serif;
+
+}
+
+  .breadcrumbs a{
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .breadcrumbs .back{
+    border: 1px solid black;
+    padding: 8px;
+  }
+
+  .breadcrumbs .stay{
+    color: var(--whiteColor);
+    background-color: var(--darkGreen);
+    padding: 8px;
+  }
+
+  .breadcrumbs i{
+    margin-right: 5px;
+  }
+
+  .breadcrumbs a:hover {
+    text-decoration: underline;
+  }
+
+  /* SPRING TIL */
+.springTil {
+  font-family: "Noto Sans", sans-serif;
+  margin-bottom: 25px;
+}
+
+.springTil a{
+  text-decoration: none;
+  color: var(--whiteColor);
+  background-color: var(--orangeColor);
+  padding: 8px;
+  border-radius: 2rem;
+}
+
+.springTil a:hover {
+  text-decoration: underline;
+}
+
+/* TRIN FOR TRIN */
+.trinForTrinSection h3{
+  margin-bottom: 35px;
+}
+
+.trinForTrin{
+  display: flex;
+  gap: 75px;
+  margin-bottom: 25px;
+}
+
+.trinForTrin img{
+  height: 300px;
+  width: 50%;
+  padding: 25px;
+}
+
+.trinForTrin p {
+  width: 50%;
+  margin: 0;
+  padding: 25px;
+}
+
+.trinOverskrift {
+  font-weight: bold;
+}
+
+.greyBackground{
+  max-width: 1130px;
+  margin: 0 auto;
+}
+
+.fullWidthBackground {
+  background-color: var(--greyColor);
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+}
+
+/* ACCORDIANS */
+.accordiansProcess {
+  display: flex;
+  gap: 50px;
+}
+
+.faqIntro p,
+.kravIntro p {
+  margin-bottom: 35px;
+}
+
+.accordionStart {
+  font-family: "Noto Sans", sans-serif;
+  color: var(--whiteColor);
+  cursor: pointer;
+  padding-right: 35px;
+  padding-left: 35px;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  height: 57px;
+  background-color: var(--lightGreen);
+  margin-bottom: 15px;
+}
+
+.contentAccordian {
+  padding: 10px 5px;
+  cursor: pointer;
+  box-shadow: 0 10px 10px rgb(0 0 0 / 0.2);
+  padding-right: 25px;
+  padding-left: 25px;
+  margin-bottom: 25px;
+  max-width: 100%;
+}
+
+.active {
+  background-color: var(--darkGreen);
+}
+
+
+/* FOOTER MARGIN */
+ footer{
+  margin-top: 25px;
+ }
